@@ -1,0 +1,9 @@
+id,message,llm_category,baseline_category,llm_urgency,baseline_urgency,llm_team,baseline_team,category_agree,urgency_agree
+1,There is a water leak in Building C that has been running all morning.,WATER,WATER,HIGH,HIGH,FACILITIES,FACILITIES,True,True
+2,The recycling bins are contaminated again and no one seems to be checking them.,WASTE_RECYCLING,WASTE_RECYCLING,MEDIUM,MEDIUM,SUSTAINABILITY_OFFICE,SUSTAINABILITY_OFFICE,True,True
+3,The air conditioning is running overnight in an empty office.,ENERGY,ENERGY,HIGH,HIGH,FACILITIES,FACILITIES,True,True
+4,I want to report that one of our suppliers may not meet our sustainability policy.,SUPPLIER_PROCUREMENT,SUPPLIER_PROCUREMENT,MEDIUM,MEDIUM,PROCUREMENT,PROCUREMENT,True,True
+5,The accessible entrance near the main building has been blocked for two days.,ACCESSIBILITY,ACCESSIBILITY,HIGH,HIGH,ACCESSIBILITY_OFFICE,ACCESSIBILITY_OFFICE,True,True
+6,"Someone left a tap running in the Building A kitchen for a minute, not a big deal, just wasteful.",WATER,WATER,LOW,HIGH,FACILITIES,FACILITIES,True,False
+7,"The lift to level 3 is out of order today, so wheelchair users can't get to the training room.",ACCESSIBILITY,ACCESSIBILITY,HIGH,LOW,ACCESSIBILITY_OFFICE,ACCESSIBILITY_OFFICE,True,False
+8,There's a strong chemical smell and fumes coming from near the loading dock bins.,HAZARDOUS_MATERIAL,HAZARDOUS_MATERIAL,CRITICAL,CRITICAL,FACILITIES,FACILITIES,True,True

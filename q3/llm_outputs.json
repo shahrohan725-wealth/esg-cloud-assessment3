@@ -1,0 +1,173 @@
+{
+  "model": "Claude (Anthropic), model id claude-opus-5-5",
+  "run_date": "2026-10-16",
+  "prompt": "revised_prompt.txt",
+  "results": [
+    {
+      "message_id": 1,
+      "message": "There is a water leak in Building C that has been running all morning.",
+      "output": {
+        "issues": [
+          {
+            "issue_category": "WATER",
+            "location": "Building C",
+            "urgency": "HIGH",
+            "sentiment": "NEGATIVE",
+            "followup_required": "Y",
+            "recommended_team": "FACILITIES",
+            "escalation_reason": "The leak 'has been running all morning', indicating ongoing water loss.",
+            "data_sensitivity_risk": "LOW",
+            "brief_summary": "Ongoing water leak in Building C since this morning."
+          }
+        ]
+      }
+    },
+    {
+      "message_id": 2,
+      "message": "The recycling bins are contaminated again and no one seems to be checking them.",
+      "output": {
+        "issues": [
+          {
+            "issue_category": "WASTE_RECYCLING",
+            "location": null,
+            "urgency": "MEDIUM",
+            "sentiment": "NEGATIVE",
+            "followup_required": "Y",
+            "recommended_team": "SUSTAINABILITY_OFFICE",
+            "escalation_reason": "Bins are contaminated 'again', a recurring problem that is not escalating.",
+            "data_sensitivity_risk": "LOW",
+            "brief_summary": "Recurring recycling bin contamination; no one appears to be monitoring bins."
+          }
+        ]
+      }
+    },
+    {
+      "message_id": 3,
+      "message": "The air conditioning is running overnight in an empty office.",
+      "output": {
+        "issues": [
+          {
+            "issue_category": "ENERGY",
+            "location": "Empty office",
+            "urgency": "HIGH",
+            "sentiment": "NEUTRAL",
+            "followup_required": "Y",
+            "recommended_team": "FACILITIES",
+            "escalation_reason": "Air conditioning 'running overnight in an empty office' is ongoing energy waste.",
+            "data_sensitivity_risk": "LOW",
+            "brief_summary": "Air conditioning running overnight in an unoccupied office."
+          }
+        ]
+      }
+    },
+    {
+      "message_id": 4,
+      "message": "I want to report that one of our suppliers may not meet our sustainability policy.",
+      "output": {
+        "issues": [
+          {
+            "issue_category": "SUPPLIER_PROCUREMENT",
+            "location": null,
+            "urgency": "MEDIUM",
+            "sentiment": "NEUTRAL",
+            "followup_required": "Y",
+            "recommended_team": "PROCUREMENT",
+            "escalation_reason": "A supplier 'may not meet our sustainability policy'; possible compliance gap, not an immediate risk.",
+            "data_sensitivity_risk": "MEDIUM",
+            "brief_summary": "Possible supplier non-compliance with sustainability policy; supplier not named."
+          }
+        ]
+      }
+    },
+    {
+      "message_id": 5,
+      "message": "The accessible entrance near the main building has been blocked for two days.",
+      "output": {
+        "issues": [
+          {
+            "issue_category": "ACCESSIBILITY",
+            "location": "Accessible entrance near the main building",
+            "urgency": "HIGH",
+            "sentiment": "NEGATIVE",
+            "followup_required": "Y",
+            "recommended_team": "ACCESSIBILITY_OFFICE",
+            "escalation_reason": "The entrance 'has been blocked for two days', a barrier blocking access now.",
+            "data_sensitivity_risk": "LOW",
+            "brief_summary": "Accessible entrance near main building blocked for two days."
+          }
+        ]
+      }
+    },
+    {
+      "message_id": 6,
+      "message": "Someone left a tap running in the Building A kitchen for a minute, not a big deal, just wasteful.",
+      "output": {
+        "issues": [
+          {
+            "issue_category": "WATER",
+            "location": "Building A kitchen",
+            "urgency": "LOW",
+            "sentiment": "NEUTRAL",
+            "followup_required": "N",
+            "recommended_team": "FACILITIES",
+            "escalation_reason": "Reporter says 'not a big deal'; tap ran 'for a minute' and is not ongoing.",
+            "data_sensitivity_risk": "LOW",
+            "brief_summary": "Brief tap left running in Building A kitchen; awareness issue only."
+          }
+        ]
+      }
+    },
+    {
+      "message_id": 7,
+      "message": "The lift to level 3 is out of order today, so wheelchair users can't get to the training room.",
+      "output": {
+        "issues": [
+          {
+            "issue_category": "ACCESSIBILITY",
+            "location": "Lift to level 3",
+            "urgency": "HIGH",
+            "sentiment": "NEGATIVE",
+            "followup_required": "Y",
+            "recommended_team": "ACCESSIBILITY_OFFICE",
+            "escalation_reason": "'Wheelchair users can't get to the training room' is a barrier blocking access now.",
+            "data_sensitivity_risk": "LOW",
+            "brief_summary": "Lift to level 3 out of order, blocking wheelchair access today."
+          }
+        ]
+      }
+    },
+    {
+      "message_id": 8,
+      "message": "There's a strong chemical smell and fumes coming from near the loading dock bins.",
+      "output": {
+        "issues": [
+          {
+            "issue_category": "HAZARDOUS_MATERIAL",
+            "location": "Loading dock bins",
+            "urgency": "CRITICAL",
+            "sentiment": "NEGATIVE",
+            "followup_required": "Y",
+            "recommended_team": "FACILITIES",
+            "escalation_reason": "'Strong chemical smell and fumes' indicates a possible hazardous release and safety risk.",
+            "data_sensitivity_risk": "LOW",
+            "brief_summary": "Chemical smell and fumes near loading dock bins; possible hazardous release."
+          }
+        ]
+      }
+    }
+  ],
+  "original_prompt_comparison": {
+    "message_id": 1,
+    "note": "Same message run through the ORIGINAL starter prompt (no allowed values, no urgency definitions).",
+    "output": {
+      "issue_category": "Facilities - Plumbing / Water Leak",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management / Maintenance Team",
+      "escalation_reason": "Continuous water leak causing water waste and potential property damage.",
+      "data_sensitivity_risk": "None",
+      "brief_summary": "Water leak in Building C has been running all morning and requires immediate attention."
+    }
+  }
+}

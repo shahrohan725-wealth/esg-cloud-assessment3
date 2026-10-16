@@ -1,0 +1,9 @@
+id,message,category,urgency,team
+1,There is a water leak in Building C that has been running all morning.,WATER,HIGH,FACILITIES
+2,The recycling bins are contaminated again and no one seems to be checking them.,WASTE_RECYCLING,MEDIUM,SUSTAINABILITY_OFFICE
+3,The air conditioning is running overnight in an empty office.,ENERGY,HIGH,FACILITIES
+4,I want to report that one of our suppliers may not meet our sustainability policy.,SUPPLIER_PROCUREMENT,MEDIUM,PROCUREMENT
+5,The accessible entrance near the main building has been blocked for two days.,ACCESSIBILITY,HIGH,ACCESSIBILITY_OFFICE
+6,"Someone left a tap running in the Building A kitchen for a minute, not a big deal, just wasteful.",WATER,HIGH,FACILITIES
+7,"The lift to level 3 is out of order today, so wheelchair users can't get to the training room.",ACCESSIBILITY,LOW,ACCESSIBILITY_OFFICE
+8,There's a strong chemical smell and fumes coming from near the loading dock bins.,HAZARDOUS_MATERIAL,CRITICAL,FACILITIES
